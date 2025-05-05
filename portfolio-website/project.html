@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Browse academic and web development projects by Nouredin Elnamla, including TIS system UI and SAD analysis.">
+  <title>Projects – Nouredin Elnamla</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+    main {
+      flex: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav class="container">
+      <h1 class="logo">Nouredin</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="project.html" class="active">Projects</a></li>
+      </ul>
+      <button id="darkModeToggle" class="btn">Toggle Dark Mode</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="projects container">
+      <h2>My Projects</h2>
+      <div class="project-grid">
+
+        <!-- TIS Project -->
+        <div class="project-card">
+          <img src="tis_UAIT.png" alt="Screenshot of TIS Project">
+          <h3>TIS Survey & System UI</h3>
+          <p>This project explored survey analysis and basic user interface design using Google Forms and UI wireframes. It involved presenting academic data trends and proposing system improvements.</p>
+          <a href="https://github.com/Nouredin-Mamdouh/TIS" target="_blank" class="btn">View on GitHub</a>
+        </div>
+
+        <!-- SAD Project -->
+        <div class="project-card">
+          <img src="sad_contextdiagram.png" alt="Context Diagram for SAD Project">
+          <h3>SAD System Analysis</h3>
+          <p>A collaborative project involving system analysis, DFD, and context diagrams for a vehicle booking platform. Documentation includes detailed processes and use case design.</p>
+          <a href="https://github.com/chuahhw/Project1_SAD_20232024" target="_blank" class="btn">View on GitHub</a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; 2025 Nouredin Elnamla. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://github.com/Nouredin-Mamdouh" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/nouredin-elnamla-067994314/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
